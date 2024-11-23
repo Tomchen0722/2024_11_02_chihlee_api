@@ -20,4 +20,4 @@ if __name__ == '__main__': #主程式命名空間 __xxx__
 
 from widget import aaa
 b = aaa.PI
-print(b)
+print(b) 
