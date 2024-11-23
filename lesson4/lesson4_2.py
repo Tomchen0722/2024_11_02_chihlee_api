@@ -13,6 +13,6 @@ def main():
     print(f"您的BMI值是{bmi_value}\n您的體重{bmi_str}")
     print("程式結束")
 
-if __name__ == '__main__': #主程式命名空間
+if __name__ == '__main__': #主程式命名空間 __xxx__
     main()
     
