@@ -1,11 +1,13 @@
-import tools #載入tools.py的function
+#import tools #載入tools.py的function
+import widget
 
 def main():
     while(True):
         try:
             height_cm = float(input("請輸入身高(公分):"))
             weight_kg = float(input("請輸入體重(公斤):"))
-            bmi_value, bmi_str = tools.BMI_math(height_cm, weight_kg)
+            #bmi_value, bmi_str = tools.BMI_math(height_cm, weight_kg)
+            bmi_value, bmi_str = widget.BMI_math(height_cm, weight_kg)
             break
         except Exception:
             print('輸入格式錯誤,請重新輸入!')
@@ -15,4 +17,7 @@ def main():
 
 if __name__ == '__main__': #主程式命名空間 __xxx__
     main()
-    
+
+from widget import aaa
+b = aaa.PI
+print(b)
