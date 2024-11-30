@@ -1,5 +1,5 @@
-from dash import Dash, dcc, html, Input, Output
-from plotly.express import data
+from dash import Dash, dcc, html, Input, Output 
+from plotly.express import data 
 import pandas as pd
 
 df =  data.medals_long()

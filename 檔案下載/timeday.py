@@ -36,6 +36,7 @@ now = datetime.now()
 now.date()
 now.time()
 #使用ctime()轉換timestamp成為字串
+
 time.ctime(now)
 #使用localtime(),gmtime()建立struct_time物件
 time.localtime(now)
@@ -47,7 +48,7 @@ time.struct_time(tm_year=2021, tm_mon=3, tm_mday=1, tm_hour=11, tm_min=32, tm_se
 #使用strftime()將struct_time物件轉成字串
 import time
 fmt = "現在日期是 %A, %B %d, %Y,時間是 %I:%M:%S%p"
- t = time.localtime()
+t = time.localtime()
 time.struct_time(tm_year=2021, tm_mon=3, tm_mday=1, tm_hour=20, tm_min=6, tm_sec=38, tm_wday=0, tm_yday=60, tm_isdst=0)
 time.strftime(fmt,t)
 #date物件只轉換date部份
