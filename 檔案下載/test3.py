@@ -1,6 +1,6 @@
 from datetime import time
 some_time = time(10, 35)
-fmt = "日期是 %B, %d, %Y,時間是 %I:%M:%S%p"
+fmt = "日期是 %b, %d, %y,時間是 %i:%Mm:%s%p"
 some_time.strftime(fmt)
 
 print(fmt)

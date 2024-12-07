@@ -1,2 +1,11 @@
 streamlit
+<<<<<<< HEAD
 
+=======
+dash
+dash_tools
+tk_tools
+plotly
+callback
+openpyxl
+>>>>>>> f7b0b303c87be0dd81a6a843946821741c9d690c
