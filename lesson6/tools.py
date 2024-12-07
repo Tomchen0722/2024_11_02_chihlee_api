@@ -11,3 +11,11 @@ def get_aqi(excel_name:str) -> list[dict]:
         sheets.append(site)
 
     return sheets
+
+def get_sitenames(excel_name:str)-> list[str]:
+    data:list[dict] = get_aqi(excel_name=excel_name)
+    sitename:list = []
+    for item in data:
+        sitename.append(item['sitename'])
+    sitename = list(set(sitename))
+    return sitename
