@@ -5,3 +5,4 @@ tk_tools
 plotly
 callback
 openpyxl
+Pillow
